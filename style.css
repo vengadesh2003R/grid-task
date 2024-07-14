@@ -1,0 +1,104 @@
+.item-wrapper-1{
+    text-align: center;
+}
+.gallery img{
+    border-radius: 12px;
+}
+.containers{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+.items-1{
+    background-color: gray;
+    padding: 15px;
+    border-radius:10px ;
+    margin-top: 0px;
+    width: 70px;
+    
+}
+h3{
+    margin: 0px;
+}
+p{
+    margin: 0px;
+}
+h2{
+    margin: 2px;
+}
+h5{
+    margin: 15px;
+}
+
+.section-wrapper{
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    height: 100vh;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.phots-wrappers{
+    border: solid 5px white ;
+    background-color:white;
+    border-radius: 20px;
+
+}
+#boxs2{
+    grid-column: 2/4;
+    background-image: url(photo2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#boxs3{
+
+    grid-row: 2;
+    grid-column: 1/3;
+    background-image: url(photo3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#boxs4{
+    grid-column: 3;
+    grid-row: 2/5;
+    background-image: url(photo_4.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#boxs5{
+    grid-row: 3;
+    grid-row: 3/5;
+    background-image: url(photo6.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#boxs6{
+    grid-row: 3;
+    grid-row: 3/5;
+    background-image: url(photo5.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#boxs1{
+    background-image: url(photo1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+footer{
+    text-align: center;
+    margin-top: 100px;
+}
